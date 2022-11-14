@@ -75,4 +75,9 @@
 
     background:white;
 }
-  
+    
+@media all and (max-width:30em){
+.body{
+    max-width: 70%;
+}
+}  
