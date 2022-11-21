@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Upps du hast auf das selbe Bild geklickt!')
       }
       else if (cardsChosen[0] === cardsChosen[1]) {
-        alert('Du hast ein Paar gefunden Yeey!!')
+     
         cards[optionOneId].setAttribute('src', 'white.png')
         cards[optionTwoId].setAttribute('src', 'white.png')
         cards[optionOneId].removeEventListener('click', flipCard)
