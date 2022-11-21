@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createBoard() {
       for (let i = 0; i < cardArray.length; i++) {
         const card = document.createElement('img')
-        card.setAttribute('src', 'pandacakes.png')
+        card.setAttribute('src', 'pandacake.jpeg')
         card.setAttribute('data-id', i)
         card.addEventListener('click', flipCard)
         grid.appendChild(card)
@@ -91,8 +91,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const optionTwoId = cardsChosenId[1]
       
       if(optionOneId == optionTwoId) {
-        cards[optionOneId].setAttribute('src', 'pandacakes.png')
-        cards[optionTwoId].setAttribute('src', 'pandacakes.png')
+        cards[optionOneId].setAttribute('src', 'pandacake.jpeg')
+        cards[optionTwoId].setAttribute('src', 'pandacake.jpeg')
         alert('Upps du hast auf das selbe Bild geklickt!')
       }
       else if (cardsChosen[0] === cardsChosen[1]) {
@@ -103,8 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
         cards[optionTwoId].removeEventListener('click', flipCard)
         cardsWon.push(cardsChosen)
       } else {
-        cards[optionOneId].setAttribute('src', 'pandacakes.png')
-        cards[optionTwoId].setAttribute('src', 'pandacakes.png')
+        cards[optionOneId].setAttribute('src', 'pandacake.jpeg')
+        cards[optionTwoId].setAttribute('src', 'pandacake.jpeg')
         alert('Ohhh versuchs weiter')
       }
       cardsChosen = []
