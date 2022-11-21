@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if(optionOneId == optionTwoId) {
         cards[optionOneId].setAttribute('src', 'pandacake2.jpeg')
         cards[optionTwoId].setAttribute('src', 'pandacake2.jpeg')
-        alert('Upps du hast auf das selbe Bild geklickt!')
+        
       }
       else if (cardsChosen[0] === cardsChosen[1]) {
      
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         cards[optionOneId].setAttribute('src', 'pandacake2.jpeg')
         cards[optionTwoId].setAttribute('src', 'pandacake2.jpeg')
-        alert('Ohhh versuchs weiter')
+        
       }
       cardsChosen = []
       cardsChosenId = []
