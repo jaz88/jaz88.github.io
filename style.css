@@ -4,20 +4,22 @@
 
 .body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 30px;
+  
+    margin-bottom: 10px;
+    margin-right: 40px;
+    background-color: white;
+    
 }
 .header{
-    padding: 80px;
+    padding-top: 0%;
+    padding: 60px;
     text-align: center;
-    background: lightpink;
+    background: linear-gradient(to right,pink 50%,lightpink 50%);
     color: white;
     max-height: 100px;
 
 }
-.header-image{
-    background-image: url(“img/.header.jpg”);
 
-}
 
 .header h1{
     font-size: 40px;
@@ -28,7 +30,7 @@
 }
 .navbar p{
     color: white;
-    margin-left: 20px;
+ text-align: center;
 }
 .navbar a{
     float: left;
@@ -46,18 +48,24 @@
     background-color: #ddd;
     color: black;
 }
+
 .container{
     display: inline;
     max-width: 600px;
     max-height: 500px;
-    background-color: #2e6bac;
+    background-color: white;
      color:#696969;
+     margin-left: 20px;
      }
+    .container h3{
+        text-align: center;
+    } 
 
 .grid {
     display:flow-root;
     max-width: 100%;
     max-height: 500px;
+    margin: 20px;
   
   
   }
@@ -66,7 +74,7 @@
     font-size: 30px;
     background-color: #696969;
     color: white;
-    margin-left: 650px;
+   margin-left: 600px;
 }
 
     
@@ -76,6 +84,7 @@
 
     background:white;
 }
+
     
 @media screen and (max-width: 700px) {
     .container {   
@@ -93,4 +102,6 @@
       float: none;
       width: 100%;
     }
-  }
+  
+        .sidenav {padding-top: 15px;}
+}
